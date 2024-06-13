@@ -1,0 +1,126 @@
+body, html, .app {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    height: 100%;
+  }
+  
+  .app {
+    display: flex;
+    flex-direction: column;
+    height: 100;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #333;
+    padding: 10px;
+    color: white;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar ul li {
+    margin: 0 10px;
+  }
+  
+  .navbar ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .auth-buttons button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .login {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .register {
+    background-color: #008CBA;
+    color: white;
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    position: relative;
+  }
+  
+  .background-image {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+  
+  .overlay {
+    text-align: right;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+  }
+  
+  .logo-overlay {
+    position: absolute;
+    top: 15px;
+    right: 1000px;
+  }
+  
+  .logo-overlay img {
+    width: 400px;
+    height: auto;
+  }
+  
+  .container {
+    max-width: 8px;
+    max-height: 200px;
+  
+    margin: 10px auto;
+    padding: 200px;
+  }
+  
+  .card {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+  }
+
+
+
+
+  .container2 {
+    max-width: 80px; 
+    max-height: 200px;
+  
+    margin: 100px auto;
+    padding: 200px;
+  }
+  
+  .card2 {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+  }
